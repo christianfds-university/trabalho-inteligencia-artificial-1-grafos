@@ -1,0 +1,45 @@
+inicial(Arad).
+final(Craiova).
+caminho(Arad, Timisoara, 118).
+caminho(Arad, Sibiu, 140).
+caminho(Arad, Zerind, 75).
+caminho(Timisoara, Lugoj, 111).
+caminho(Zerind, Oradea, 71).
+caminho(Oradea, Sibiu, 151).
+caminho(Lugoj, Mehadia, 70).
+caminho(Mehadia, Dobreta, 75).
+caminho(Dobreta, Craiova, 120).
+caminho(Craiova, Pitesti, 138).
+caminho(Sibiu, Fagaras, 99).
+caminho(Sibiu, Rimnicu Vilcea, 80).
+caminho(Rimnicu Vilcea, Craiova, 146).
+caminho(Rimnicu Vilcea, Pitesti, 97).
+caminho(Fagaras, Bucareste, 211).
+caminho(Pitesti, Bucareste, 101).
+caminho(Bucareste, Giurgiu, 90).
+caminho(Bucareste, Urziceni, 85).
+caminho(Urziceni, Vaslui, 142).
+caminho(Urziceni, Hirsova, 98).
+caminho(Hirsova, Eforie, 86).
+caminho(Vaslui, Iasi, 92).
+caminho(Iasi, Neamt, 87).
+h(Arad, Craiova, 133).
+h(Craiova, Craiova, 0).
+h(Timisoara, Craiova, 110).
+h(Oradea, Craiova, 126).
+h(Lugoj, Craiova, 81).
+h(Mehadia, Craiova, 80).
+h(Dobreta, Craiova, 80).
+h(Sibiu, Craiova, 84).
+h(Rimnicu Vilcea, Craiova, 64).
+h(Fagaras, Craiova, 56).
+h(Pitesti, Craiova, 33).
+h(Urziceni, Craiova, 26).
+h(Hirsova, Craiova, 50).
+h(Vaslui, Craiova, 68).
+h(Iasi, Craiova, 72).
+h(Neamt, Craiova, 75).
+h(Zerind, Craiova, 125).
+h(Craiova, Craiova, 53).
+h(Giurgiu, Craiova, 26).
+h(Eforie, Craiova, 56).

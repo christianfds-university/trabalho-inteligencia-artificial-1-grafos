@@ -1,0 +1,46 @@
+inicial(Arad).
+final(Bucareste).
+caminho(Arad, Timisoara, 118).
+caminho(Arad, Sibiu, 140).
+caminho(Arad, Zerind, 75).
+caminho(Timisoara, Lugoj, 111).
+caminho(Zerind, Oradea, 71).
+caminho(Oradea, Sibiu, 151).
+caminho(Lugoj, Mehadia, 70).
+caminho(Mehadia, Dobreta, 75).
+caminho(Dobreta, Craiova, 120).
+caminho(Craiova, Pitesti, 138).
+caminho(Sibiu, Fagaras, 99).
+caminho(Sibiu, Rimnicu Vilcea, 80).
+caminho(Rimnicu Vilcea, Craiova, 146).
+caminho(Rimnicu Vilcea, Pitesti, 97).
+caminho(Fagaras, Bucareste, 211).
+caminho(Pitesti, Bucareste, 101).
+caminho(Bucareste, Giurgiu, 90).
+caminho(Bucareste, Urziceni, 85).
+caminho(Urziceni, Vaslui, 142).
+caminho(Urziceni, Hirsova, 98).
+caminho(Hirsova, Eforie, 86).
+caminho(Vaslui, Iasi, 92).
+caminho(Iasi, Neamt, 87).
+h(Arad, Bucareste, 366).
+h(Bucareste, Bucareste, 0).
+h(Timisoara, Bucareste, 329).
+h(Oradea, Bucareste, 380).
+h(Lugoj, Bucareste, 244).
+h(Mehadia, Bucareste, 241).
+h(Dobreta, Bucareste, 242).
+h(Sibiu, Bucareste, 253).
+h(Rimnicu Vilcea, Bucareste, 193).
+h(Fagaras, Bucareste, 176).
+h(Pitesti, Bucareste, 100).
+h(Urziceni, Bucareste, 80).
+h(Hirsova, Bucareste, 151).
+h(Vaslui, Bucareste, 199).
+h(Iasi, Bucareste, 226).
+h(Neamt, Bucareste, 234).
+h(Zerind, Bucareste, 374).
+h(Craiova, Bucareste, 160).
+h(Giurgiu, Bucareste, 77).
+h(Eforie, Bucareste, 161).
+

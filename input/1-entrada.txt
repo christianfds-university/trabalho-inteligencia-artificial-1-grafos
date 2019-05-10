@@ -1,0 +1,25 @@
+inicial(s).
+final(g).
+caminho(s, a, 4).
+caminho(s, b, 1).
+caminho(s, c, 2).
+caminho(a, d, 1).
+caminho(a, e, 2).
+caminho(c, f, 1).
+caminho(f, h, 3).
+caminho(f, i, 1).
+caminho(h, j, 1).
+caminho(h, g, 2).
+caminho(h, k, 2).
+h(s, g, 12).
+h(a, g, 7).
+h(b, g, 8).
+h(c, g, 8).
+h(d, g, 6).
+h(e, g, 4).
+h(f, g, 7).
+h(h, g, 4).
+h(i, g, 5).
+h(j, g, 2).
+h(g, g, 0).
+h(k, g, 1).
